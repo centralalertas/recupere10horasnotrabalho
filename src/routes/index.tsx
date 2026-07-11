@@ -125,9 +125,9 @@ function Hero() {
             utilizando IA de forma simples e prática
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-white/75 md:text-lg">
-            Aprenda a utilizar IA para escrever e-mails, criar relatórios, organizar reuniões,
-            produzir documentos, elaborar planejamentos e automatizar tarefas do dia a dia — de
-            forma simples, prática e acessível.
+            Aprenda a transformar tarefas de horas em minutos e aplicar seu tempo no que
+            realmente faz diferença: estar com quem você ama, aprender novas habilidades,
+            cuidar da sua saúde ou simplesmente viver com mais tranquilidade.
           </p>
 
           <div className="mt-8">
