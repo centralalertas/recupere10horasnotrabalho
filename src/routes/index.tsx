@@ -28,7 +28,7 @@ import {
 
 import guiaCover from "@/assets/guia-cover.png.asset.json";
 import professionalCalm from "@/assets/professional-calm.jpg";
-import authorPhoto from "@/assets/author.jpg";
+import authorPhoto from "@/assets/marcos.jpg.asset.json";
 import heroBg from "@/assets/hero-bg.jpg";
 
 export const Route = createFileRoute("/")({
@@ -467,7 +467,7 @@ function Author() {
         <div className="relative mx-auto">
           <div className="absolute -inset-4 rounded-full bg-cta/20 blur-2xl" aria-hidden />
           <img
-            src={authorPhoto}
+            src={authorPhoto.url}
             alt="Marcos Nascimento, autor do guia"
             width={280}
             height={280}
