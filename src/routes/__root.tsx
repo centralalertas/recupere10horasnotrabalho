@@ -81,17 +81,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Guia prático para profissionais recuperarem até 10 horas por semana usando Inteligência Artificial no trabalho, de forma simples e aplicável.",
+          "Aprenda a transformar tarefas de horas em minutos e aplique em estar com quem você ama, aprender novas habilidades, cuida",
       },
       { name: "author", content: "Marcos Nascimento" },
       { property: "og:title", content: "Recupere 10 Horas por Semana com IA no Trabalho" },
       {
         property: "og:description",
         content:
-          "Aprenda a usar IA para escrever e-mails, criar relatórios, organizar reuniões e automatizar tarefas do dia a dia.",
+          "Aprenda a transformar tarefas de horas em minutos e aplique em estar com quem você ama, aprender novas habilidades, cuida",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Recupere 10 Horas por Semana com IA no Trabalho" },
+      { name: "twitter:description", content: "Aprenda a transformar tarefas de horas em minutos e aplique em estar com quem você ama, aprender novas habilidades, cuida" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/43a16c2e-9743-4b40-8ce1-abc16760880b" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/43a16c2e-9743-4b40-8ce1-abc16760880b" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
