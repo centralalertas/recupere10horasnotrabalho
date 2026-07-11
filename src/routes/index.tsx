@@ -122,7 +122,7 @@ function Hero() {
             <span className="bg-gradient-to-r from-cta to-emerald-300 bg-clip-text text-transparent">
               10 horas da sua semana
             </span>{" "}
-            utilizando Inteligência Artificial
+            utilizando IA de forma simples e prática
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-white/75 md:text-lg">
             Aprenda a utilizar IA para escrever e-mails, criar relatórios, organizar reuniões,
