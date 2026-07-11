@@ -28,7 +28,7 @@ import {
 
 import guiaCover from "@/assets/guia-cover.png.asset.json";
 import professionalCalm from "@/assets/professional-calm.jpg";
-import authorPhoto from "@/assets/author.jpg";
+import authorPhoto from "@/assets/marcos.jpg.asset.json";
 import heroBg from "@/assets/hero-bg.jpg";
 
 export const Route = createFileRoute("/")({
