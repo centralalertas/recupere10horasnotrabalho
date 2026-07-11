@@ -139,7 +139,7 @@ function Hero() {
           </p>
 
           <div className="mt-8">
-            <CTAButton>{CTA_TEXT}</CTAButton>
+            <CTAButton variant="blue">{CTA_TEXT}</CTAButton>
           </div>
 
           <ul className="mt-8 grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-white/80">
