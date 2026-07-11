@@ -77,6 +77,7 @@ function LandingPage() {
       <Testimonials />
       <Author />
       <Offer />
+      <Guarantee />
       <FAQ />
       <Footer />
     </div>
