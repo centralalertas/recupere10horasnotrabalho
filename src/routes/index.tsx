@@ -50,20 +50,14 @@ const CTA_TEXT_LONG = "QUERO RECUPERAR MEU TEMPO AGORA";
 function CTAButton({
   children,
   className = "",
-  variant = "green",
 }: {
   children: React.ReactNode;
   className?: string;
-  variant?: "green" | "blue";
 }) {
   const base =
-    "inline-flex items-center justify-center gap-2 rounded-full px-7 py-4 font-bold text-base md:text-lg transition-all duration-250 hover:-translate-y-0.5 hover:scale-[1.02] active:translate-y-0 active:scale-[0.99]";
-  const variantClasses =
-    variant === "blue"
-      ? "bg-sky-400 text-white shadow-[0_10px_30px_-8px_rgba(56,189,248,0.55)] hover:bg-sky-500 hover:shadow-[0_16px_40px_-8px_rgba(56,189,248,0.6)]"
-      : "btn-cta";
+    "inline-flex items-center justify-center gap-2 rounded-full px-7 py-4 font-bold text-base md:text-lg transition-all duration-250 hover:-translate-y-0.5 hover:scale-[1.02] active:translate-y-0 active:scale-[0.99] btn-cta";
   return (
-    <a href="#oferta" className={`${base} ${variantClasses} ${className}`}>
+    <a href="#oferta" className={`${base} ${className}`}>
       {children}
       <ArrowRight className="h-5 w-5" strokeWidth={2.5} />
     </a>
