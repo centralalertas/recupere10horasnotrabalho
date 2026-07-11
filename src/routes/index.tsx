@@ -558,6 +558,37 @@ function Offer() {
   );
 }
 
+function Guarantee() {
+  return (
+    <section className="bg-secondary/40 py-16">
+      <div className="mx-auto max-w-4xl px-5">
+        <div className="surface-card relative overflow-hidden p-8 text-center md:p-12">
+          <div
+            className="absolute -right-16 -top-16 h-64 w-64 rounded-full bg-cta/15 blur-3xl"
+            aria-hidden
+          />
+          <div className="relative mx-auto max-w-2xl">
+            <div className="mx-auto grid h-16 w-16 place-items-center rounded-full bg-cta/10 text-cta">
+              <ShieldCheck className="h-8 w-8" strokeWidth={2} />
+            </div>
+            <h2 className="mt-6 text-2xl font-bold text-navy md:text-3xl">
+              Garantia de 7 dias ou seu dinheiro de volta
+            </h2>
+            <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
+              Você tem 7 dias para acessar o guia completo e aplicar as técnicas. Se por
+              qualquer motivo não sentir que fez a escolha certa, devolvemos 100% do seu
+              investimento, sem perguntas, sem burocracia.
+            </p>
+            <div className="mt-8 inline-flex items-center gap-2 rounded-full border border-cta/30 bg-cta/10 px-5 py-2 text-sm font-semibold text-cta">
+              <ShieldCheck className="h-4 w-4" /> Risco zero na compra
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function FAQ() {
   const [open, setOpen] = useState<string | undefined>("item-0");
   const faqs = [
