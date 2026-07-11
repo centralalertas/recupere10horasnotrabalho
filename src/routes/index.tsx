@@ -614,7 +614,7 @@ function FAQ() {
     },
     {
       q: "E se eu não gostar?",
-      a: "O guia é objetivo e prático. Estamos confiantes de que fará diferença no seu dia a dia.",
+      a: "Você conta com garantia de 7 dias. Se não gostar, devolvemos 100% do valor sem qualquer questionamento.",
     },
   ];
 
