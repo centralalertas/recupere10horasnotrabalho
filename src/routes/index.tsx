@@ -119,7 +119,7 @@ function Hero() {
           </span>
           <h1 className="mt-6 font-display text-4xl font-extrabold leading-[1.05] tracking-tight md:text-6xl">
             Recupere até{" "}
-            <span className="bg-gradient-to-r from-cta to-emerald-300 bg-clip-text text-transparent">
+            <span className="text-sky-300">
               10 horas da sua semana
             </span>{" "}
             utilizando IA de forma simples e prática
