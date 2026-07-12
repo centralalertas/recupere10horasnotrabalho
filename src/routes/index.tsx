@@ -136,7 +136,7 @@ function Hero() {
             <CTAButton>{CTA_TEXT}</CTAButton>
           </div>
           <p className="mt-4 text-sm font-semibold text-cta">
-            🔥 Oferta válida para as primeiras 100 aquisições
+            ⏳ Enquanto você lê isso, outros já estão economizando horas
           </p>
 
           <ul className="mt-8 grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-white/80">
@@ -428,17 +428,28 @@ function Testimonials() {
             Quem já aplicou
           </span>
           <h2 className="mt-3 text-3xl font-bold text-navy md:text-4xl">
-            Resultados reais no dia a dia
+            O que profissionais como você podem alcançar
           </h2>
+          <p className="mt-4 text-lg text-muted-foreground">
+            Aplicável a diferentes áreas: administrativa, jurídica, consultoria e muito mais.
+          </p>
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-3">
           {items.map((t) => (
             <figure key={t.name} className="surface-card flex h-full flex-col p-7">
-              <div className="flex gap-0.5 text-cta">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <Star key={i} className="h-4 w-4 fill-current" />
-                ))}
+              <div className="flex items-center gap-3">
+                <div className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-navy text-sm font-bold text-navy-foreground">
+                  {t.name
+                    .split(" ")
+                    .map((n) => n[0])
+                    .join("")}
+                </div>
+                <div className="flex gap-0.5 text-cta">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <Star key={i} className="h-4 w-4 fill-current" />
+                  ))}
+                </div>
               </div>
               <blockquote className="mt-5 flex-1 text-base leading-relaxed text-navy">
                 “{t.text}”
