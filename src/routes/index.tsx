@@ -158,7 +158,7 @@ function Hero() {
             alt="Capa do guia: Como Recuperar Até 10 Horas por Semana com Inteligência Artificial no Trabalho"
             width={900}
             height={1200}
-            className="relative w-[280px] rotate-[-4deg] rounded-lg shadow-2xl transition-transform duration-500 hover:rotate-0 hover:scale-105 md:w-[380px]"
+            className="relative w-[280px] rotate-[-4deg] rounded-lg shadow-2xl transition-transform duration-500 hover:rotate-0 hover:scale-105 md:w-[380px] mix-blend-lighten"
           />
         </div>
       </div>
