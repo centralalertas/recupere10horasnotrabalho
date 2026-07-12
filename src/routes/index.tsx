@@ -27,7 +27,6 @@ import {
 } from "lucide-react";
 
 import guiaCover from "@/assets/guia-cover.png.asset.json";
-import mulherTempoLivre from "@/assets/mulher-tempo-livre.png.asset.json";
 import heroBg from "@/assets/hero-bg.jpg";
 
 export const Route = createFileRoute("/")({
@@ -317,12 +316,12 @@ function ImpactSection() {
         <div className="relative order-2 md:order-1">
           <div className="absolute -inset-3 rounded-3xl bg-cta/20 blur-2xl" aria-hidden />
           <img
-            src={mulherTempoLivre.url}
+            src="/mulher-tempo-livre.jpg"
             alt="Mulher relaxando em varanda ao pôr do sol com café e notebook, representando tempo livre recuperado"
             width={1600}
             height={1100}
             loading="lazy"
-            className="relative aspect-[4/3] w-full rounded-2xl object-cover shadow-[var(--shadow-elegant)]"
+            className="relative aspect-[3/4] w-full rounded-2xl object-cover shadow-[var(--shadow-elegant)]"
           />
         </div>
         <div className="order-1 md:order-2">
