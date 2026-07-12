@@ -26,7 +26,6 @@ import {
   Target,
 } from "lucide-react";
 
-import guiaCover from "@/assets/guia-cover.png.asset.json";
 import heroBg from "@/assets/hero-bg.jpg";
 
 export const Route = createFileRoute("/")({
@@ -35,8 +34,7 @@ export const Route = createFileRoute("/")({
     meta: [
       {
         property: "og:image",
-        content: "https://id-preview--cb4ae9bd-c817-4331-afdd-a782099c18a0.lovable.app" +
-          guiaCover.url,
+        content: "https://id-preview--cb4ae9bd-c817-4331-afdd-a782099c18a0.lovable.app/guia-cover.jpg",
       },
     ],
   }),
@@ -156,7 +154,7 @@ function Hero() {
             className="absolute -inset-8 rounded-full bg-cta/20 blur-3xl"
           />
           <img
-            src={guiaCover.url}
+            src="/guia-cover.jpg"
             alt="Capa do guia: Como Recuperar Até 10 Horas por Semana com Inteligência Artificial no Trabalho"
             width={900}
             height={1200}
