@@ -120,11 +120,12 @@ function Hero() {
           <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs font-medium tracking-wide text-white/80">
             <Sparkles className="h-3.5 w-3.5" /> Guia digital · Acesso imediato
           </span>
-          <h1 className="mt-6 font-display text-4xl font-extrabold leading-[1.05] tracking-tight md:text-6xl">
+          <h1 className="mt-6 font-display text-4xl font-extrabold leading-[1.05] tracking-tight text-white md:text-6xl">
             Recupere até{" "}
             <span className="text-sky-300">
               10 horas da sua semana
             </span>{" "}
+            <span className="text-white">de trabalho</span>{" "}
             utilizando IA de forma simples e prática
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-white/75 md:text-lg">
