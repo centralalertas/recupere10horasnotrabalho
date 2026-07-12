@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 
 import guiaCover from "@/assets/guia-cover.png.asset.json";
-import professionalCalm from "@/assets/professional-calm.jpg";
+import mulherTempoLivre from "@/assets/mulher-tempo-livre.png.asset.json";
 import authorPhoto from "@/assets/marcos.jpg.asset.json";
 import heroBg from "@/assets/hero-bg.jpg";
 
@@ -318,8 +318,8 @@ function ImpactSection() {
         <div className="relative order-2 md:order-1">
           <div className="absolute -inset-3 rounded-3xl bg-cta/20 blur-2xl" aria-hidden />
           <img
-            src={professionalCalm}
-            alt="Profissional trabalhando de forma tranquila e organizada"
+            src={mulherTempoLivre.url}
+            alt="Mulher relaxando em varanda ao pôr do sol com café e notebook, representando tempo livre recuperado"
             width={1600}
             height={1100}
             loading="lazy"
