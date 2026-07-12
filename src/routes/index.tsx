@@ -29,6 +29,7 @@ import {
 import guiaCover from "@/assets/guia-cover.png.asset.json";
 import mulherTempoLivre from "@/assets/mulher-tempo-livre.png.asset.json";
 import authorPhoto from "@/assets/marcos.jpg.asset.json";
+import seloGarantia from "@/assets/selo-garantia-de-7-dias.png.asset.json";
 import heroBg from "@/assets/hero-bg.jpg";
 
 export const Route = createFileRoute("/")({
