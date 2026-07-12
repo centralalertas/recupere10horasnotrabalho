@@ -482,11 +482,24 @@ function Author() {
             Sobre o autor
           </span>
           <h2 className="mt-3 text-3xl font-bold text-navy md:text-4xl">Marcos Nascimento</h2>
-          <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            Profissional com mais de duas décadas atuando em tecnologia, gestão de projetos e
-            produtividade. Une experiência prática de campo a métodos simples para transformar
-            complexidade em resultado.
-          </p>
+          <div className="mt-4 space-y-4 text-lg leading-relaxed text-muted-foreground">
+            <p>
+              Marcos Nascimento é bacharel em Ciência da Computação e atua há mais de duas décadas
+              na área de Tecnologia da Informação, conduzindo projetos de alta complexidade tanto na
+              iniciativa privada quanto na administração pública.
+            </p>
+            <p>
+              Ao longo de sua carreira participou de projetos estratégicos em instituições como
+              Exército Brasileiro, Força Aérea Brasileira, Ministério da Educação, INCRA, Banco do
+              Brasil, Banco de Brasília- BRB, Senado Federal e outros.
+            </p>
+            <p>
+              Especialista em gestão de projetos, métodos ágeis, melhoria de processos e
+              desenvolvimento organizacional, dedicou grande parte de sua trajetória profissional a
+              ajudar equipes e organizações a produzirem melhores resultados utilizando os mesmos
+              recursos disponíveis.
+            </p>
+          </div>
           <div className="mt-6 flex flex-wrap gap-2">
             {badges.map(({ icon: Icon, text }) => (
               <span
