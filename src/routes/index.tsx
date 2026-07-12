@@ -135,6 +135,9 @@ function Hero() {
           <div className="mt-8">
             <CTAButton>{CTA_TEXT}</CTAButton>
           </div>
+          <p className="mt-4 text-sm font-semibold text-cta">
+            🔥 Oferta válida para as primeiras 100 aquisições
+          </p>
 
           <ul className="mt-8 grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-white/80">
             {[
@@ -564,6 +567,9 @@ function BonusSection() {
             Você leva o guia completo + todos os bônus por apenas{" "}
             <span className="text-cta">R$ 67</span>
           </p>
+          <p className="mt-3 text-sm font-semibold text-cta">
+            🔥 Bônus exclusivos para as 100 primeiras aquisições
+          </p>
         </div>
 
         <div className="mt-12 text-center">
@@ -617,6 +623,9 @@ function Offer() {
                 R$ 67
               </p>
               <p className="mt-1 text-xs text-white/60">pagamento único</p>
+              <p className="mt-2 text-xs font-semibold text-cta">
+                🔥 Restam poucas vagas das 100 com esse valor
+              </p>
               <div className="mt-6">
                 <CTAButton className="w-full justify-center">QUERO RECUPERAR MEU TEMPO + BÔNUS</CTAButton>
               </div>
