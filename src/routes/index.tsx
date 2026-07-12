@@ -550,7 +550,7 @@ function BonusSection() {
               <h3 className="mt-4 text-lg font-bold text-white">{b.title}</h3>
               <p className="mt-3 text-white/75">{b.description}</p>
               <p className="mt-4 text-sm font-semibold uppercase tracking-widest text-white/60">
-                Valor: <span className="text-cta">{b.value}</span>
+                Valor: <span className="text-cta line-through">{b.value}</span>
               </p>
             </div>
           ))}
