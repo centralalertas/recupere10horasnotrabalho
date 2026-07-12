@@ -24,6 +24,7 @@ import {
   Award,
   Briefcase,
   Target,
+  Gift,
 } from "lucide-react";
 
 import heroBg from "@/assets/hero-bg.jpg";
@@ -70,6 +71,7 @@ function LandingPage() {
       <BeforeAfter />
       <ImpactSection />
       <Modules />
+      <BonusSection />
       <Testimonials />
       <Author />
       <Offer />
@@ -501,6 +503,71 @@ function Author() {
               </span>
             ))}
           </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function BonusSection() {
+  const bonuses = [
+    {
+      title: "Bônus 1: Pack com +30 Prompts Prontos",
+      description:
+        "Prompts prontos e otimizados por categoria para você usar imediatamente.",
+      value: "R$ 25",
+    },
+    {
+      title: "Bônus 2: Grupo Exclusivo de Alunos",
+      description:
+        "Acesso ao grupo fechado para tirar dúvidas e trocar experiências com outros alunos.",
+      value: "R$ 47",
+    },
+    {
+      title: "Bônus 3: 1 Aula Ao Vivo Prática (1 hora)",
+      description:
+        "Aula ao vivo comigo onde vamos aplicar as técnicas na prática em casos reais. A aula será gravada e ficará disponível para quem não conseguir assistir ao vivo.",
+      value: "R$ 80",
+    },
+  ];
+
+  return (
+    <section className="bg-navy py-24 text-navy-foreground">
+      <div className="mx-auto max-w-5xl px-5">
+        <div className="mx-auto max-w-2xl text-center">
+          <span className="text-sm font-semibold uppercase tracking-widest text-cta">
+            🎁 Bônus Exclusivos
+          </span>
+          <h2 className="mt-3 text-3xl font-bold md:text-4xl">
+            O que você ganha além do guia
+          </h2>
+        </div>
+
+        <div className="mt-14 grid gap-6 md:grid-cols-3">
+          {bonuses.map((b) => (
+            <div key={b.title} className="rounded-2xl border border-white/10 bg-white/5 p-8">
+              <Gift className="h-8 w-8 text-cta" />
+              <h3 className="mt-4 text-lg font-bold text-white">{b.title}</h3>
+              <p className="mt-3 text-white/75">{b.description}</p>
+              <p className="mt-4 text-sm font-semibold uppercase tracking-widest text-white/60">
+                Valor: <span className="text-cta">{b.value}</span>
+              </p>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-12 rounded-2xl border border-cta/30 bg-cta/5 p-8 text-center shadow-[0_0_60px_-20px_var(--cta)]">
+          <p className="text-white/75">
+            Total em bônus: <span className="font-semibold text-white line-through">R$ 152</span>
+          </p>
+          <p className="mt-2 text-xl font-bold text-white md:text-2xl">
+            Você leva o guia completo + todos os bônus por apenas{" "}
+            <span className="text-cta">R$ 67</span>
+          </p>
+        </div>
+
+        <div className="mt-12 text-center">
+          <CTAButton>{CTA_TEXT_LONG}</CTAButton>
         </div>
       </div>
     </section>
