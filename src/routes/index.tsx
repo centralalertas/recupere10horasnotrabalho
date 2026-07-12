@@ -29,7 +29,6 @@ import {
 import guiaCover from "@/assets/guia-cover.png.asset.json";
 import mulherTempoLivre from "@/assets/mulher-tempo-livre.png.asset.json";
 import authorPhoto from "@/assets/marcos.jpg.asset.json";
-import seloGarantia from "@/assets/selo-garantia-de-7-dias.png.asset.json";
 import heroBg from "@/assets/hero-bg.jpg";
 
 export const Route = createFileRoute("/")({
@@ -560,7 +559,7 @@ function Offer() {
               </p>
               <p className="mt-1 text-xs text-white/60">pagamento único</p>
               <div className="mt-6">
-                <CTAButton className="w-full justify-center">QUERO RECUPERAR MEU TEMPO + TODOS OS BÔNUS</CTAButton>
+                <CTAButton className="w-full justify-center">QUERO RECUPERAR MEU TEMPO + BÔNUS</CTAButton>
               </div>
               <p className="mt-4 text-xs text-white/60">
                 Compra 100% segura · Sem mensalidade
@@ -585,7 +584,7 @@ function Guarantee() {
           <div className="relative mx-auto max-w-2xl">
             <div className="mx-auto w-32 md:w-40">
               <img
-                src={seloGarantia.url}
+                src="/garantia.png"
                 alt="Selo de garantia de 7 dias ou seu dinheiro de volta"
                 className="h-auto w-full"
                 loading="lazy"
