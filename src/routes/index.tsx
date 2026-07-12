@@ -551,7 +551,7 @@ function Offer() {
               </p>
               <p className="mt-1 text-sm font-medium text-white/80">Por apenas</p>
               <p className="mt-1 font-display text-6xl font-extrabold tracking-tight text-cta">
-                R$47
+                R$67
               </p>
               <p className="mt-1 text-xs text-white/60">pagamento único</p>
               <div className="mt-6">
