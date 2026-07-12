@@ -452,7 +452,7 @@ function Testimonials() {
 
 function Author() {
   const badges = [
-    { icon: Award, text: "25+ anos de experiência" },
+    { icon: Award, text: "20+ anos de experiência" },
     { icon: Briefcase, text: "Especialista em TI" },
     { icon: Target, text: "Projetos de Alta Complexidade" },
     { icon: Users, text: "Scrum Master" },
@@ -547,7 +547,7 @@ function Offer() {
               </p>
               <p className="mt-1 text-sm font-medium text-white/80">Por apenas</p>
               <p className="mt-1 font-display text-6xl font-extrabold tracking-tight text-cta">
-                R$67
+                R$ 67
               </p>
               <p className="mt-1 text-xs text-white/60">pagamento único</p>
               <div className="mt-6">
