@@ -560,7 +560,7 @@ function Offer() {
               </p>
               <p className="mt-1 text-xs text-white/60">pagamento único</p>
               <div className="mt-6">
-                <CTAButton className="w-full justify-center">QUERO RECUPERAR MEU TEMPO + RECEBER TODOS OS BÔNUS</CTAButton>
+                <CTAButton className="w-full justify-center">QUERO RECUPERAR MEU TEMPO + TODOS OS BÔNUS</CTAButton>
               </div>
               <p className="mt-4 text-xs text-white/60">
                 Compra 100% segura · Sem mensalidade
