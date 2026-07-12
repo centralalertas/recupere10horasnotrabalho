@@ -480,13 +480,9 @@ function Author() {
           <div className="mt-4 space-y-4 text-lg leading-relaxed text-muted-foreground">
             <p>
               Marcos Nascimento é bacharel em Ciência da Computação e atua há mais de duas décadas
-              na área de Tecnologia da Informação, conduzindo projetos de alta complexidade tanto na
-              iniciativa privada quanto na administração pública.
-            </p>
-            <p>
-              Ao longo de sua carreira participou de projetos estratégicos em instituições como
-              Exército Brasileiro, Força Aérea Brasileira, Ministério da Educação, INCRA, Banco do
-              Brasil, Banco de Brasília- BRB, Senado Federal e outros.
+              na área de Tecnologia da Informação, conduzindo projetos de alta complexidade em
+              instituições como Exército Brasileiro, Força Aérea Brasileira, Ministério da
+              Educação, INCRA, Banco do Brasil, Banco de Brasília- BRB, Senado Federal e outros.
             </p>
             <p>
               Especialista em gestão de projetos, métodos ágeis, melhoria de processos e
